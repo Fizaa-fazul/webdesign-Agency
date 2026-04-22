@@ -12,10 +12,10 @@ function Contact(){
                 <p>Have a project idea? <br />Let's build something amazing together.</p>
                 <p >📧 Email: webdesign@gmail.com <br /> 📍 Location: Karachi, Pakistan</p>
                 <div className="social-icons">
-                    <a href=""><FaFacebookF /></a>
-                     <a href="#"><FaInstagram /></a>
-                    <a href="#"><FaLinkedinIn /></a>
-                     <a href="#"><FaBehance /></a>
+                    <a href="https://www.facebook.com/"><FaFacebookF /></a>
+                     <a href="https://www.instagram.com/"><FaInstagram /></a>
+                    <a href="https://www.linkedin.com/"><FaLinkedinIn /></a>
+                     <a href="https://www.behance.com/"><FaBehance /></a>
                 </div>
                 
               
