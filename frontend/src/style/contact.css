@@ -1,0 +1,138 @@
+/* Contact Section */
+.contact {
+  padding: 60px 80px 70px;
+  background: #f8fafc;
+}
+
+.contact-title {
+  text-align: center;
+  font-size: 48px;
+  margin-bottom: 35px;
+  color: black;
+  font-weight: bolder;
+}
+
+/* Layout */
+.contact-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px 80px;
+  gap: 40px;
+}
+
+/* Left Side */
+.left-side {
+  flex: 1;
+}
+
+.left-side h1 {
+  font-size: 38px;
+  margin-bottom: 20px;
+  text-align: left;
+  font-weight: bold;
+}
+
+.contact .left-side p {
+  font-size: 18px;
+  line-height: 1.7;
+  color: black;
+  
+
+  
+}
+
+.social-icons{
+  display:flex;
+  gap:15px;
+  margin-top:20px;
+}
+
+.social-icons a{
+  width:45px;
+  height:45px;
+  border-radius:50%;
+  background:#7C3AED;
+  color:white;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-size:20px;
+  transition:0.3s ease;
+  text-decoration:none;
+}
+
+.social-icons a:hover{
+  transform:translateY(-5px);
+  background:#5B21B6;
+}
+
+/* Right Side */
+.contact-right-side {
+  flex: 1;
+  background: #7C3AED;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(141, 22, 115, 0.514);
+}
+
+/* Form */
+.contact-right-side form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-right-side input,
+.contact-right-side textarea {
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+}
+
+.contact-right-side textarea {
+  min-height: 140px;
+  resize: none;
+}
+
+/* Button */
+.contact-right-side button,
+.contact-right-side + button,
+button {
+  margin-top: 20px;
+  padding: 12px 22px;
+  background: #EC4899;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #880647;
+
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(233, 178, 187, 0.767);
+   transform: translateY(-3px);
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .contact-container {
+    padding: 50px 20px;
+    flex-direction: column;
+  }
+
+  .left-side h1,
+  .contact h1 {
+    text-align: center;
+  }
+}
+@media(max-width: 768px) {
+  .contact-container{
+    flex-direction: column;
+  }
+  
+}

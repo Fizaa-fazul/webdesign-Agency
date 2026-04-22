@@ -1,0 +1,48 @@
+.whyus{
+    padding: 55px 80px;
+    text-align: center;
+    background: #f8fafc;
+    margin-top: 0;
+}
+.whyus-title{
+    font-size: 48px;
+    margin-bottom: 35px;
+    color: black;
+    font-weight: bolder;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+.card{
+    background: white;
+    width: 280px;
+    padding: 28px 22px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(141, 22, 115, 0.514);
+    transition: 0.3s;
+}
+.card:hover{
+    transform:translateY(-8px)
+}
+
+.card h1{
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.card p{
+    font-size: 16px;
+    color: black;
+    line-height: 1.6;
+}
+.whyus-icon{
+    color: #7C3AED;
+    
+}
+.card:hover .whyus-icon{
+ transform: scale(1.1);
+ transition: .3s ease;
+}
